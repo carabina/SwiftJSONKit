@@ -41,7 +41,7 @@ extension Post: JSONDeserializable {
 
 ## Author
 
-patrick.montalto@adnas.com, pmontalto@gmail.com
+Patrick Montalto
 
 ## License
 
