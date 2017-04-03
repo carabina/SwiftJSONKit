@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftJSONKit_Tests' do
+  pod 'SwiftJSONKit', :path => '../'
+  
+  
+end
