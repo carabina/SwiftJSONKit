@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D250EC051E92E70D0043B1CC /* DeserializeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250EC041E92E70D0043B1CC /* DeserializeTests.swift */; };
+		D250EC071E92E7290043B1CC /* DecodeDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250EC061E92E7290043B1CC /* DecodeDateTests.swift */; };
+		D250EC091E92E7350043B1CC /* DecodeURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250EC081E92E7350043B1CC /* DecodeURLTests.swift */; };
+		D250EC0B1E92E7530043B1CC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250EC0A1E92E7530043B1CC /* Post.swift */; };
+		D250EC0D1E92E7590043B1CC /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250EC0C1E92E7590043B1CC /* Blog.swift */; };
+		D250EC0F1E92E7780043B1CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250EC0E1E92E7780043B1CC /* User.swift */; };
 		E33065A65507A4AE43EF5567 /* Pods_SwiftJSONKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770A9F314BAF550C7F9B1E9B /* Pods_SwiftJSONKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		120D3F71CD6A43B6D16893DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		120D3F71CD6A43B6D16893DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftJSONKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftJSONKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D29FC23C1BBF995A84FEC50 /* Pods-SwiftJSONKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONKit_Tests/Pods-SwiftJSONKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		770A9F314BAF550C7F9B1E9B /* Pods_SwiftJSONKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftJSONKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C4AD299B109A740D3473CD /* Pods-SwiftJSONKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONKit_Tests/Pods-SwiftJSONKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D10D829B7509F0282B3BDF35 /* SwiftJSONKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftJSONKit.podspec; path = ../SwiftJSONKit.podspec; sourceTree = "<group>"; };
-		EAE8EA25BC5EB0201A2DBEFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D10D829B7509F0282B3BDF35 /* SwiftJSONKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftJSONKit.podspec; path = ../SwiftJSONKit.podspec; sourceTree = "<group>"; };
+		D250EC031E92E70D0043B1CC /* SwiftJSONKit_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftJSONKit_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D250EC041E92E70D0043B1CC /* DeserializeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeserializeTests.swift; sourceTree = "<group>"; };
+		D250EC061E92E7290043B1CC /* DecodeDateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeDateTests.swift; sourceTree = "<group>"; };
+		D250EC081E92E7350043B1CC /* DecodeURLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeURLTests.swift; sourceTree = "<group>"; };
+		D250EC0A1E92E7530043B1CC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D250EC0C1E92E7590043B1CC /* Blog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		D250EC0E1E92E7780043B1CC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAE8EA25BC5EB0201A2DBEFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +85,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				D250EC041E92E70D0043B1CC /* DeserializeTests.swift */,
+				D250EC061E92E7290043B1CC /* DecodeDateTests.swift */,
+				D250EC081E92E7350043B1CC /* DecodeURLTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -83,6 +96,10 @@
 		607FACE91AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D250EC0E1E92E7780043B1CC /* User.swift */,
+				D250EC0A1E92E7530043B1CC /* Post.swift */,
+				D250EC0C1E92E7590043B1CC /* Blog.swift */,
+				D250EC031E92E70D0043B1CC /* SwiftJSONKit_Tests-Bridging-Header.h */,
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -131,13 +148,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -223,7 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				D250EC051E92E70D0043B1CC /* DeserializeTests.swift in Sources */,
+				D250EC091E92E7350043B1CC /* DecodeURLTests.swift in Sources */,
+				D250EC0F1E92E7780043B1CC /* User.swift in Sources */,
+				D250EC0D1E92E7590043B1CC /* Blog.swift in Sources */,
+				D250EC071E92E7290043B1CC /* DecodeDateTests.swift in Sources */,
+				D250EC0B1E92E7530043B1CC /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8C4AD299B109A740D3473CD /* Pods-SwiftJSONKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -333,6 +352,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SwiftJSONKit_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D29FC23C1BBF995A84FEC50 /* Pods-SwiftJSONKit_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -349,6 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SwiftJSONKit_Tests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
