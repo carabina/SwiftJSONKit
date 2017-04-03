@@ -5,20 +5,39 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftJSONKit.svg?style=flat)](http://cocoapods.org/pods/SwiftJSONKit)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftJSONKit.svg?style=flat)](http://cocoapods.org/pods/SwiftJSONKit)
 
-## Example
+## Overview
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-SwiftJSONKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+## Installation with Cocoapods
+SwiftJSONKit is available through [Cocoapods](https://cocoapods.org). To install, simply add the following line to your Podfile:
 ```ruby
 pod "SwiftJSONKit"
 ```
+
+## Usage 
+Take a plain old blog post struct:
+
+```Swift
+struct Post {
+    let title: String
+    let createdAt: Date
+```
+
+And now add JSON deserialization easily:
+
+```Swift
+import SwiftJSONKit
+
+extension Post: JSONDeserializable {
+    init(jsonRepresentation dictionary: JSONDictionary) throws {
+        title = try decode(json, key: "title")
+        createdAt = try decode(json, key: "created_at")
+    }
+}
+
+```
+
+
+
 
 ## Author
 
