@@ -10,9 +10,8 @@ env:
 before_install:
   - rvm install ruby-2.2.2
   - gem install cocoapods
-  - gem install xcpretty -N
   - brew update
-  - pod install
+  - pod install --project-directory=Example
 script:
   - set -o pipefail
   - xcodebuild -workspace Example/SwiftJSONKit.xcworkspace -scheme SwiftJSONKit-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
